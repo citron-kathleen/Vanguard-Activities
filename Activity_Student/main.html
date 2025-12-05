@@ -1,7 +1,83 @@
-<html>
-    <head>
-        <title>Homepage of Vanguard</title>
-        <link href="top.html">
-        <link href="bottom.html">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanguard Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #622222; 
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 30px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .names {
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+        }
+
+        .names span {
+            font-size: 20px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .section {
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+           .section img {
+            width: 550px;
+            height: 380px;
+            border-radius: 2px;
+        }
+
+        .desc {
+            margin-top: 20px;
+            width: 50%;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+    </style>
+</head>
+<body>
+    <br></br>
+    <h1>Welcome to page of Vanguard</h1>
+
+    <!-- Centered Names -->
+    <div class="names">
+        <span>Citron</span>
+        <span>Nolluda</span>
+        <span>Quiambao</span>
+    </div>
+
+    <div class="section">
+        <img src="group.jpg">
+        <br></br>
+        <div class="desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Praesent ac sapien non urna volutpat congue. Curabitur id 
+            nulla sed dolor fermentum interdum.  
+            <br><br>
+            Add your group or personal description here.
+        </div>
+    </div>
+
+</body>
 </html>
