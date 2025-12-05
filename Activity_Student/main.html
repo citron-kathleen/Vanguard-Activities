@@ -9,7 +9,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #622222; 
+            background-color: #622222;
             font-family: Arial, Helvetica, sans-serif;
             color: white;
             text-align: center;
@@ -21,17 +21,26 @@
             font-weight: bold;
         }
 
+        /* Names section */
         .names {
-            margin-top: 80px;
+            margin-top: 60px;
             display: flex;
             justify-content: center;
             gap: 80px;
         }
 
-        .names span {
-            font-size: 20px;
-            font-weight: 800;
+        .names a {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
             cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .names a:hover {
+            color: #ffcc99;
+            transform: scale(1.1);
         }
 
         .section {
@@ -41,15 +50,15 @@
             align-items: center;
         }
 
-           .section img {
+        .section img {
             width: 550px;
             height: 380px;
-            border-radius: 2px;
+            border-radius: 10px;
         }
 
         .desc {
             margin-top: 20px;
-            width: 50%;
+            width: 55%;
             font-size: 18px;
             line-height: 1.6;
         }
@@ -59,23 +68,21 @@
 <body>
     <br></br>
     <h1>Welcome to page of Vanguard</h1>
-
-    <!-- Centered Names -->
+    <br></br>
     <div class="names">
-        <span>Citron</span>
-        <span>Nolluda</span>
-        <span>Quiambao</span>
+        <a href="citron.html">Citron</a>
+        <a href="nolluda.html">Nolluda</a>
+        <a href="quiambao.html">Quiambao</a>
     </div>
 
     <div class="section">
         <img src="group.jpg">
-        <br></br>
+
         <div class="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Praesent ac sapien non urna volutpat congue. Curabitur id 
-            nulla sed dolor fermentum interdum.  
-            <br><br>
-            Add your group or personal description here.
+            <br></br>
+           This is the Vanguard team. But first, this picture is our photo of the Vanguard Team along with our friends
+           Lastly, click on any of the names above to view the individual information pages for Citron, Nolluda, and Quiambao.
+           Each page contains their personal background, profile, and other details that we have prepared.
         </div>
     </div>
 
